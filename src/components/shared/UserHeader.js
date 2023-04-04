@@ -5,20 +5,20 @@ const Headre = () => {
     return (
     <>
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
+<div className="container-fluid">
     <h1 className="navbar-brand">LSP</h1>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
         <Link to="/home" className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
-          <Link to="/userReq" className="nav-link">Users_Requests</Link>
+            <Link to="/borrowReq" className="nav-link">Borrow_Requests</Link>
         </li>
-      </ul>
+        </ul>
         <Link to="/logout"className="btn btn-outline-danger" type="submit">log-out</Link>
     </div>
-  </div>
+</div>
 </nav>
 <Outlet />
     </>

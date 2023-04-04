@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <>
         <h1>
-            tets routing 
+            log out
         </h1>
         </>
     )
