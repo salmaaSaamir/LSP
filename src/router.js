@@ -13,10 +13,13 @@ import Footer from '../src/components/HomeUser/Footer';
 import Home from '../src/components/HomeAdmin/Home';
 import Create from '../src/components/HomeAdmin/Create';
 import Update from '../src/components/HomeAdmin/Update'
+import Signin from './components/Signin/Signin';
+import Signup from './components/Register/Signup';
+import Mybooks from './components/Mybooks/Mybooks';
 export const router = createBrowserRouter([
     {
     path: "/",
-    element: <Home/>,
+    element: <Signin/>,
     },
     {
         path: "/Update",
@@ -37,8 +40,12 @@ export const router = createBrowserRouter([
 },
 {
 
-    path: "/home",
-    element: <div>Hello home!</div>,
+    path: "/userhome",
+    element: <>
+    <Header/>
+    <Body/>
+    <Footer/>
+    </>,
 },
 {
 
@@ -50,24 +57,22 @@ export const router = createBrowserRouter([
     </>,
 },
 {
-    path: "/logout",
-    element: <Footer />
+    path: "/Signup",
+    element: <Signup />
     ,
 },
-
 {
-    path: "/1",
+    path: "/adminhome",
     element: <>
-    <Header /> 
-    <Body/>
+    <Home /> 
     <Footer/>
     </>,
 },
 {
     path: "/My-Books",
-    element: <>
-    <div>Hello My Books</div>
-    </>,
+    element: 
+   <Mybooks/>
+
 },
 {
     path: "/Show-Details",

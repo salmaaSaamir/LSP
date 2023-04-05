@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.right1-side{
+    text-align: center;
+    margin: 100px;
+    float: left ;
+}
+.left1-side{
+    left: 50%; 
+    margin: 40px;  
+    width: 800px;
+    padding: 0.75rem;
+    border-radius: 30px;  
+    background: #198754;
+    height: 455px;
+}
+select{
+    left: 60px !important;
+    width: 450px;
+    height: 35px;
+}

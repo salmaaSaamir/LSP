@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+} 
+.class2{
+    margin: 40px;
+    position: relative;
+    width: 1060px;
+    height: 500px;
+    background:white;
+    border-radius: 1em;
+    box-shadow: 0 4px 20px rgba(0, 0,0,0.3), 0 6px 20px 0 rgba(0, 0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-side{
+    text-align: center;
+    margin: 100px;
+    float: left ;
+}
+.left-side{
+    left: 50%; 
+    margin: 40px;  
+    width: 800px;
+    padding: 0.75rem;
+    border-radius: 30px;  
+    background: #198754;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+}
+p{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-family: auto;
+}
+.pp{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: auto;
+}
+.ppp{
+    font-size: 20px;
+    font-family: auto;
+    color: black;
+}
+.form-group{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    margin: 25px !important;
+} 
+.form-group input{
+    margin: 5px !important;
+    border: none !important;
+    color: #fff !important;
+    overflow: hidden !important;
+}
+.btn1{
+    width: 60% !important;
+    text-decoration: none !important;
+    height: 35px !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+.btn1{
+    border: 2px solid black !important;
+    background: #fff !important;
+    color: black !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    width: 100px;
+}
+.btn-success{
+    bottom: 28px;
+    margin-bottom: 10px !important;
+    width: 87%;
+    position: relative;
+    left: 30px;
+}
