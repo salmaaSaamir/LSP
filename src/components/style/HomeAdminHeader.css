@@ -1,0 +1,71 @@
+*{
+    overflow: hidden;
+
+  
+}
+
+/* .border1{
+    margin-top: 30px;
+} */
+/* create , show ,user tabs */
+.navbar-nav{
+    
+    margin-left:220px!important;
+    background-color: white!important;
+}
+
+/* create , show ,user tabs */
+.nav-link{
+    color :#198754!important;
+    margin-right: 20px;
+    font-family: auto;
+    background-color: white!important;
+    font-size: 15px;
+}
+.container-fluid{
+    background-color: white!important;
+}
+
+/* LSP tab */
+.navbar-brand{
+   font-size: 40px;
+    font-family: auto;
+    color: rgb(7, 77, 22) !important;
+    border-bottom-left-radius: 5px!important;
+    font-size: 1.8rem !important;
+    border: 1px solid;
+    margin: 10px 20px;
+    padding: 6px;
+    border-top: none;
+    border-right: none;
+    border-radius: 5px;
+    box-shadow: 4px 3px 3px -1px #d8efbd;
+    background-color: white!important;
+    
+}
+ .navbar-collapse {
+    background-color: white!important; 
+ }
+ 
+.navbar{
+    border-bottom: none!important;
+    background-color: white!important;
+    
+}
+.d-flex{
+    background-color: white!important;
+}
+.nav-item{
+    background-color: white!important;
+}
+/* log out button */
+.button {
+margin-left: 300px!important;
+border-radius: 6px;
+height: 40px;
+width: 80px;
+border-color: #dc3545;
+color:#dc3545!important;
+background-color: white!important;
+} 
+

@@ -1,0 +1,110 @@
+.navbar{
+    padding: 0px !important;
+    width: 202.4vh !important;
+    background-color: rgb(25 135 84) !important;
+}
+
+
+.container-fluid{
+    background-color: rgb(255 255 255);
+    width: 95% !important;
+    margin: 10px 0px 0px !important; 
+    padding: 10px !important;
+    border-radius: 5px 5px 0px 00px !important;
+
+}
+.collaps{
+    margin: 10px 15px !important;
+    padding: 10px !important;
+    font-family: none !important;
+}
+.nav-link {
+    color: rgb(7, 77, 22) !important;
+    font-size: 1.5rem !important;
+    font-family: auto !important;
+}
+.nav-link:hover{
+    color: rgb(133, 93, 18) !important;
+
+}
+.navbar-brand{
+    font-size: 1.8rem !important;
+    font-family: auto !important;
+    border: 1px solid !important;
+    margin: 10px 20px !important;
+    padding: 6px !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-radius: 5px !important;
+    box-shadow: 4px 3px 3px -1px #d8efbd !important;
+    color: rgb(7, 77, 22) !important;
+}
+.btn-outline-danger{
+    font-size: 18px;
+    position: relative;
+    /* right: 20px; */
+ 
+}
+.search{
+   position: relative;
+   display: flex;
+   width: 60%;
+   justify-content: center;
+   margin: 0px auto;
+   align-items: center;
+    
+}
+.form-control{
+    align-items: center;
+    border-radius: 0px !important;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid;
+    border-bottom:1px solid;
+    border-left:none; 
+    border-color:rgb(25 135 84);
+    border-top:1px solid;
+    border-bottom:1px solid;
+}
+.form-control:focus{
+    border-color:rgb(25 135 84);
+    box-shadow:none;
+    border-color: rgb(25 135 84);
+}
+ 
+.form-select{
+    box-shadow: none !important;
+    width: 150px;
+    border-right: none;
+    border-radius: 0px !important;
+    border-left:1px solid; 
+    box-shadow: none !important;
+    border-top:1px solid;
+    border-right: none;
+    border-bottom:1px solid;
+    border-left:1px solid; 
+    border-color: rgb(25 135 84);
+    border-top:1px solid;
+    position: relative;
+    border-bottom:1px solid;
+    left: 85px;
+    border-color: rgb(25 135 84);
+    position: relative;
+    border-color: black;
+}
+.navbar-nav{
+    left: 85px;
+    width:75%;
+}
+.btn-success{
+    width:75%;
+    border-left:none;
+    border-radius:0px !important;  
+    border-color:rgb(25 135 84);
+}
+ 
+
+ 
+
+ 
+ 
