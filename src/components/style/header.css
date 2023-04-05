@@ -1,0 +1,42 @@
+nav{
+    left: 33.5px;
+}
+.container-fluid{
+    background-color: rgb(255 255 255);
+    width: 95% !important;
+    margin: 10px 0px 0px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 00px
+    
+}
+.collaps{
+    margin: 10px 15px;
+    padding: 10px;
+    font-family: none;
+}
+.nav-link {
+    color: rgb(7, 77, 22) !important;
+    font-size: 1.5rem;
+    font-family: auto !important;
+}
+.nav-link:hover{
+    color: rgb(133, 93, 18) !important;
+    
+}
+.navbar-brand{
+    font-size: 1.8rem !important;
+    font-family: auto !important;
+    border: 1px solid;
+    margin: 10px 20px;
+    padding: 6px;
+    border-top: none;
+    border-right: none;
+    border-radius: 5px;
+    box-shadow: 4px 3px 3px -1px #d8efbd;
+    color: rgb(7, 77, 22);
+}
+.btn-outline-danger{
+    font-size: 18px;
+    position: relative;
+    right: 20px;
+}

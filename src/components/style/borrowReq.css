@@ -1,0 +1,39 @@
+
+.card{
+    width: 18rem;
+    margin: 20px;
+    box-shadow: 0px 0px 2px 1px #5a2507ab;
+    border-radius: 15px !important;
+}
+.card-body{
+    background-color:rgb(255 255 255) !important;
+}
+.body{
+    position: relative;
+    top: -10px;
+    background-color: rgb(255 255 255);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 95% !important;
+    margin:  0px auto;
+    justify-items: center;
+    padding-top: 3%;
+}
+.card-title{
+    font-family: none;
+    font-size: 1.5rem !important;
+    
+}
+.card-subtitle{
+    font-family: none;
+    font-size: 1.25rem !important;
+    color: #4CAF50;
+    text-shadow: 0px 0px 0.5px #bacb11;
+}
+.card-text{
+    text-transform: capitalize;
+}
+.card button{
+    margin: 5px;
+    text-transform: capitalize;
+}
