@@ -1,0 +1,45 @@
+th{
+    padding: 50px!important;
+    color:#198754!important;
+    background-color: white!important;
+}
+thead{
+    position: relative;
+    left: 25px;
+}
+tbody{
+    position: relative;
+    left: 25px;
+}
+table{
+        border-collapse: inherit !important;
+}
+tr{
+    text-align: center;
+    text-transform: capitalize;
+}
+td{
+    padding: 50px!important;  
+    background-color: white!important;
+}
+button{
+    margin-right: 40px;
+}
+.bton{
+border-radius: 6px;
+height: 40px;
+width: 80px;
+margin-left: 550px;
+border-color:#6FB1B4!important;
+margin-top: 50px;
+}
+.bton:hover {
+    background-color: #3A727F;
+}
+.border{
+    margin: 40px;
+    border-radius: 10px;
+    border-bottom:none!important;
+    background-color: white;
+    
+}

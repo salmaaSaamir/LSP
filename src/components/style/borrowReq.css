@@ -2,7 +2,7 @@
 .card{
     width: 18rem;
     margin: 20px;
-    box-shadow: 0px 0px 2px 1px #5a2507ab;
+    /* box-shadow: 0px 0px 2px 1px #5a2507ab; */
     border-radius: 15px !important;
 }
 .card-body{
