@@ -21,7 +21,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">To Paradise</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Hello Beautiful</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Cloud Atlas</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Walk The Blue Line</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">To Paradise</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Hello Beautiful</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Cloud Atlas</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Walk The Blue Line</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">To Paradise</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Hello Beautiful</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Cloud Atlas</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
@@ -187,17 +187,14 @@ const Body = () => {
                         <div className="card-body">
                             <h5 className="card-title">Walk The Blue Line</h5>
                             <p className="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <Link to="/Show-Details" className="nav-link" class="btn btn-success">Show Details</Link>
+                            <Link to="/Details" className="nav-link" class="btn btn-success">Show Details</Link>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-   
- 
-
-         </>
+        </>
     );
 };
 

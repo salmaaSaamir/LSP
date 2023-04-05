@@ -16,6 +16,7 @@ import Update from '../src/components/HomeAdmin/Update'
 import Signin from './components/Signin/Signin';
 import Signup from './components/Register/Signup';
 import Mybooks from './components/Mybooks/Mybooks';
+import Details from './components/BookDetailes/Details';
 export const router = createBrowserRouter([
     {
     path: "/",
@@ -30,7 +31,6 @@ export const router = createBrowserRouter([
         element:<> <Create/>
         </>,
     },
-
 {
     path: "/borrowReq",
     element: <>
@@ -39,7 +39,6 @@ export const router = createBrowserRouter([
     </>,
 },
 {
-
     path: "/userhome",
     element: <>
     <Header/>
@@ -70,15 +69,11 @@ export const router = createBrowserRouter([
 },
 {
     path: "/My-Books",
-    element: 
-   <Mybooks/>
-
+    element: <Mybooks/>
 },
 {
-    path: "/Show-Details",
-    element: <>
-    <div>Hello in Details</div>
-    </>,
+    path: "/Details",
+    element: <Details/>
 }
 ]);
 
