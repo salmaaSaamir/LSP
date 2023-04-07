@@ -1,7 +1,6 @@
 import React from "react";
-import "../style/HomeUserHeader.css";
 import { Link } from 'react-router-dom';
- 
+
 const Header = () => {
     return (
         <>
@@ -30,7 +29,7 @@ const Header = () => {
             </div>  
             </ul>
             <div>
-            <button className="btn btn-outline-danger me-1" type="submit">log-out</button>
+            <Link to="/"className="btn btn-outline-danger" type="submit">log-out</Link>
             </div>
           </div>
         </div>

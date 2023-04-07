@@ -1,73 +1,23 @@
-*{
-margin: 0;
-padding: 0;
-
-};
-.body{
-    height: 100vh;
-    width: 100%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: center;
-    
+.card{
+    width: 95%;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
 }
-.container{
-    margin: 40px;
-    position: relative;
-    width: 1000px;
-    height: 600px;/*600px*/
-    background:white;
-    border-radius: 1em;
-    box-shadow: 0 4px 20px rgba(0, 0,0,0.3), 0 6px 20px 0 rgba(0, 0,0,0.3);
-    /* text-align: center; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
+.card .btn-success{
+    margin-left: -25px !important;
+    }
 
-.img-fluid {
+.card .card-title{
+    font-weight: bold;
+} 
+.card img{
     display: flex;
     flex-direction: column;
     height: 76vh !important;
+    margin: 20px;
     border-radius: 10px;
 }
-.navbar{
-    flex-direction: column;
-    width: 1100px;
-    height: 400px !important;
-    background-color:white !important;
-    margin-top: 10px;
-
-}
-.navbar-brand{
-    font-size: 1.8rem !important;
-    font-family: auto !important;
-    border: 2px solid;
-    margin: 10px 20px;
-    padding: 6px;
-    border-top: none;
-    border-right: none;
-    border-radius: 5px;
-    box-shadow: 4px 3px 3px -1px #d8efbd;
-    color: rgb(7, 77, 22);
-}
-.navbar-brand:hover{
-    color: #4caf50 !important;
-}
-.nav-link{
-    font-size: 20px !important;
-    font-weight: 600 !important;
-    margin: 0 10px !important;
-    padding: 5px 5px !important;
-    color: #4caf50;
-}
-.nav-link:hover{
-    color: #4caf50 !important;
-}
-.btn1{
-    float: right !important;
+.card  .btn{
     background-color: #198754;
     color: #fff;
     border: none !important;
@@ -76,28 +26,11 @@ padding: 0;
     width: 80px;
     height: 40px;
     font-weight: 450 !important;
+    margin: 50px 65px;
 }
-.btn-success{
-    margin-right: 170px !important;
-    /* margin: 5px; */
-    }
-.card{
-    width: 800px; 
-    position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: none !important;
-    border: none !important;
-    font-family: auto;
-    text-transform: capitalize;
-}
-.card-title{
-    font-weight: bold;
-}
-
-span{
-    text-align:justify !important;
-    line-break: 500px;
-
+.card .card-body p{
+    width: 75%;
+    margin: 10px;
+    color: black;
+    text-align: start;
 }

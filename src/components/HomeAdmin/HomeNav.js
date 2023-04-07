@@ -1,4 +1,4 @@
-import '../style/HomeAdminHeader.css';
+// import '../style/HomeAdminHeader.css';
 import { Link } from "react-router-dom";
 
 const HomeNav = () => {
@@ -25,7 +25,7 @@ const HomeNav = () => {
         </Link>
           </li>
           </ul>
-          <Link to="/logout"className="btn btn-outline-danger" type="submit">log-out</Link>
+          <Link to="/"className="btn btn-outline-danger" type="submit">log-out</Link>
       </div>
     </div>
     </nav>

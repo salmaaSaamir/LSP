@@ -1,4 +1,4 @@
-import '../style/borrowReq.css'
+// import '../style/borrowReq.css'
 
 const UserRequests = () => {
     return (

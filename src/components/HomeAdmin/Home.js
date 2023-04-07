@@ -1,5 +1,5 @@
-import '../style/AdminBody.css';
-import '../style/HomeAdminHeader.css';
+// import '../style/AdminBody.css';
+// import '../style/HomeAdminHeader.css';
 import { Link } from "react-router-dom";
 import HomeNav from './HomeNav';
 const Home = () => {

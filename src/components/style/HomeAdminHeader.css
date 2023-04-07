@@ -1,12 +1,6 @@
-*{
-    overflow-x: hidden;
-}
-/* create , show ,user tabs */
 .navbar-nav{
     background-color: white!important;
 }
-
-/* create , show ,user tabs */
 .nav-link{
     color :#198754!important;
     margin-right: 20px;
@@ -37,11 +31,6 @@
 .navbar-collapse {
     background-color: white!important; 
     margin: 20px;
-}
-.navbar{
-    border-bottom: none!important;
-    background-color: white!important;
-    
 }
 .d-flex{
     background-color: white!important;

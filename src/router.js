@@ -20,7 +20,7 @@ import Details from './components/BookDetailes/Details';
 export const router = createBrowserRouter([
     {
     path: "/",
-    element: <Signin/>,
+    element: <Signin />,
     },
     {
         path: "/Update",
@@ -43,7 +43,6 @@ export const router = createBrowserRouter([
     element: <>
     <Header/>
     <Body/>
-    <Footer/>
     </>,
 },
 {
@@ -69,7 +68,7 @@ export const router = createBrowserRouter([
 },
 {
     path: "/My-Books",
-    element: <Mybooks/>
+    element: <><Mybooks/></>
 },
 {
     path: "/Details",

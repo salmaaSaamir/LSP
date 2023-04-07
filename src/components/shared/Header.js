@@ -10,13 +10,13 @@ const Headre = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/adminhome" className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
           <Link to="/userReq" className="nav-link">Users_Requests</Link>
         </li>
       </ul>
-        <Link to="/logout"className="btn btn-outline-danger" type="submit">log-out</Link>
+        <Link to="/"className="btn btn-outline-danger" type="submit">log-out</Link>
     </div>
   </div>
 </nav>

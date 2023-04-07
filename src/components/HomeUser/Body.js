@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Body.css';
+
 import  image from '../../assets/image/atlas.jpg';
 import  image2 from '../../assets/image/paradise.jpg';
 import  image3 from '../../assets/image/walkblue.jpg';

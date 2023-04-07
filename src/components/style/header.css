@@ -1,13 +1,15 @@
-nav{
-    left: 33.5px;
-}
 .container-fluid{
     background-color: rgb(255 255 255);
     width: 95% !important;
     margin: 10px 0px 0px;
     padding: 10px;
     border-radius: 5px 5px 0px 00px
-    
+}
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 .collaps{
     margin: 10px 15px;

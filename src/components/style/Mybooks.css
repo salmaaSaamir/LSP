@@ -1,16 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.body{
-    height: 100vh;
-    width: 100%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: center;
-}
 .class{
     margin: 50px;
     position: relative;
@@ -22,57 +9,6 @@
     display: flex;
     flex-direction: column; 
     align-items: center; 
-}
-.container-fluid{
-    position: relative;
-    bottom: -15px;
-}
-.navbar{
-    position: relative !important;
-    margin-top: 2px !important;  
-    background-color: blue !important;
-    padding: 5px 20px !important;
-    flex-direction: column;
-    margin: 10px !important;
-    width: 1050px;
-    height: 50px !important;
-    background-color:white !important; 
-    margin-top: 5px;
-}
-.navbar-brand{
-    font-size: 1.8rem !important;
-    font-family: auto !important;
-    border: 2px solid;
-    margin: 10px 20px !important;
-    padding: 6px;
-    border-top: none;
-    border-right: none;
-    border-radius: 5px;
-    box-shadow: 4px 3px 3px -1px #d8efbd;
-    color: rgb(7, 77, 22);
-}
-.navbar-nav li{
-    list-style: none;
-    padding: 0px 10px;
-    position: relative;
-} 
-.navbar-nav a{
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
-    color: rgb(7, 77, 22);
-    transition: 0.6s ease-in-out;
-}
-.nav-item a:hover{
-    color: #4caf50;
-} 
-.nav-link{
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0 10px;
-    padding: 5px 5px;
 }
 .Table-grid{
     z-index: 2;
